@@ -1,9 +1,17 @@
 import React from 'react';
+import {BrowserRouter} from "react-router-dom";
+import NavBar from "./components/nav-bar/NavBar";
+import Routes from "./routes/Routes";
+import './assets/layout/main.css';
 
 function App() {
     return (
         <div>
-          Hello Dev!
+            <BrowserRouter>
+                <NavBar/>
+                <hr/>
+                <Routes/>
+            </BrowserRouter>
         </div>
     );
 }

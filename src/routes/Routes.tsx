@@ -7,9 +7,10 @@ class Routes extends Component {
 
     render() {
         return (
-            <div>
-
-            </div>
+            <Switch>
+                <Route path={'/'} exact={true} component={TodoList}/>
+                <Route path={'/add'} exact={true} component={TodoAdd}/>
+            </Switch>
         );
     }
 }
