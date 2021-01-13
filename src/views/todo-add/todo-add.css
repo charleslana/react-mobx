@@ -1,0 +1,16 @@
+.inputTodoAdd {
+    width: 50%;
+    height: 35px;
+    font-size: 18px;
+    background-color: lightgray;
+    color: black;
+    padding: 15px;
+}
+
+.buttonTodoAdd {
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
